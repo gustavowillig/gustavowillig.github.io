@@ -1,36 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Exercício 3.1</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <a href="#orgulho">Habilidades que me orgulho</a>
-  <br> <br>
-  <a href="#outroorgulho">Outras habilidades</a>
-  <h1> <strong> <a href="#foto">Gustavo Willig Quintino dos Santos</a></strong></h1>
-  <img id="foto" src="imagens/foto.png" alt="Foto de perfil do Gustavo" width="200px">
-  <p>Aluno da Trybe | Formando em mestrado de Engenharia Mecânica na UFSC | Formado em Engenharia Mecânica na UFES <br>
-    <br> Adoro aprender, estudar e em busca de me tornar um profissional melhor. Sou brasileiro e moro em Vitória-ES.
-  </p>
-
-  <a href="https://www.linkedin.com/in/gustavo-willig-a1b959114/" target="_blank"> <strong>Linkedin</strong></a>
-<br> <br>
-  <a href="https://github.com/gustavowillig" target="_blank"> <strong>Github</strong></a>
-
-  <h2 id="orgulho">Habilidades que me orgulho</h2>
-  <ul>
-    <li>Dedicação</li>
-    <li>Comprometimento</li>
-    <li>Adaptável</li>
-  </ul>
-  <h2 id="outroorgulho">Outras habilidades</h2>
-  <ul>
-    <li>Python</li>
-    <li>HTML</li>
-  </ul>
+  <header id="cabecalho">
+    <h1 id="titulo">Gustavo Willig</h1>
+  </header>
+  <main>
+    <div class="estruturafoto">
+      <img id="minha_foto" src="gustavo.png" alt="">
+    </div>
+    <table>
+      <tr>
+        <th>Lições aprendidas</th>
+        <th>Lições a serem aprendidas</th>
+      </tr>
+      <tr>
+        <td>
+          <ol id="licoes_aprendidas">
+            <li>HTML</li>
+            <li>Github</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Zoom</li>
+            <li>Slack</li>
+            <li>Python</li>
+            <li>Termodinâmica</li>
+            <li>C++</li>
+            <li>Matemática</li>
+          </ol>
+        </td>
+        <td>
+          <ul id="licoes_a_aprender">
+            <li>SQL</li>
+            <li>CSS Responsivo</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>Unit Tests</li>
+            <li>Inspect</li>
+            <li>DOM</li>
+            <li>Forms</li>
+            <li>Pandas</li>
+            <li>ES6</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <article class="lado-esquerdo clearfix">
+      <p>Eu sou Gustavo Willig e sou graduado em Engenharia Mecânica na Universidade Federal do Espírito Santo (UFES). Eu fiz intercâmbio para os EUA pelo programa Ciências sem Fronteiras no último edital. Eu atualmente estou fazendo mestrado em Engenharia Mecânica focado no estudo de escoamento em meios porosos utilizando o método de volumes finitos com arranjo desencontrado e malhas não-estruturadas.</p>
+    </article>
+    <aside class="lado-direito clearfix">
+      <p>Eu sou Gustavo Willig, sei trabalhar em equipe, gosto de ajudar o grupo para alcançar o sucesso. Gosto de aprender e quero melhorar principalmente os meus soft skills.</p>
+    </aside>
+  </main>
+  <footer id="rodape">Todos os direitos reservados por Gustavo Willig - <a href="https://www.linkedin.com/in/gustavo-willig-a1b959114/" target="_blank">Linkedin - </a><a href="https://github.com/gustavowillig" target="_blank">Github</a>
+  </footer>
+    
 </body>
-
 </html>
